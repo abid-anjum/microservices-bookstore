@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+    <groupId>com.sergio.bookstore</groupId>
+    <artifactId>microservices-bookstore</artifactId>
+    <version>0.0.7-SNAPSHOT</version>
+    <name>Microservices bookstore</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>backend-user</module>
+        <module>service-batch</module>
+        <module>service-books</module>
+        <module>service-config</module>
+        <module>service-discovery</module>
+        <module>service-mails</module>
+        <module>service-prices</module>
+        <module>service-users</module>
+    </modules>
+ 
+</project>
