@@ -7,7 +7,6 @@ To implement this architecture, I used:
 * Docker to package the application;
 * and Kubernetes to manage the microservices.
 
-This repository is related to a playlist video: https://www.youtube.com/playlist?list=PLab_if3UBk9-BjDP7Yh4uiy8z0pEd14Tp
 
 ### Database on localhost
 
